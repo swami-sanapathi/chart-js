@@ -1,0 +1,20 @@
+- create repo in github
+- create new folder and js file in local machine
+- initialize git in that folder
+  - git init
+- to add files to the staging area
+  - git add .
+- to commit the changes
+  - git commit -m "First commit"
+- to add the remote repo url
+  - git remote add origin `repo_url`
+- to push the code to the remote repo
+  - git push origin `what ever branch you name it`
+- to check the status of the git
+  - git status
+- to check the log of the git
+  - git log
+- to check the remote repo
+  - git remote -v
+- to check the branch
+  - git branch
