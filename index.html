@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive Grid</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="top-circles">
+      <div class="top-circle" id="show-qc">
+        QC
+        <div class="percentage" id="qc-percentage">
+          <canvas id="qc-percentage-chart"></canvas>
+        </div>
+      </div>
+      <div class="top-circle" id="show-pt">
+        PT
+        <div class="percentage" id="pt-percentage">
+          <canvas id="pt-percentage-chart"></canvas>
+        </div>
+      </div>
+      <div class="top-circle" id="show-trn">
+        TRN
+        <div class="percentage" id="trn-percentage">
+          <canvas id="trn-percentage-chart"></canvas>
+        </div>
+      </div>
+    </div>
+
+    <div class="content" id="qc-section">
+      <div class="grid-container" id="qc-grid-container">
+        <!-- Dynamic QC Items will be inserted here -->
+      </div>
+    </div>
+    <div class="content" id="pt-section" style="display: none">
+      <div class="grid-container" id="pt-grid-container">
+        <!-- Dynamic PT Items will be inserted here -->
+      </div>
+    </div>
+    <div class="content" id="trn-section" style="display: none">
+      <div class="grid-container" id="trn-grid-container">
+        <!-- Dynamic TRN Items will be inserted here -->
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
